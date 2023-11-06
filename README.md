@@ -24,7 +24,7 @@ O projeto pega dados de duas origem um de API do site themoviedb.org e outra do 
     "id_empresa": "Identificador ?nico da empresa contratada",
     "nome_empresa": "Nome da empresa contratada"</li>
     <li>
-    Houve um tratamento dos dados (ELT) via pyton envio para carregamento no BigQuery do google
+    Houve um tratamento dos dados (ELT) via Python envio para carregamento no BigQuery do google
     </li>
 </ul>
 </p>
@@ -60,7 +60,7 @@ BigQuery - Google
 
 
 -  **DAX** Dax 
- - **PYTON** tratamento do dados 
+ - **Python** tratamento do dados 
 -  **POWER BI ** ” Cria??o de Dash bord em Power BI
 -  **JQuery** para cadastro de imagens
 - **R**  para csv
