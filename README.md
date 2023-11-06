@@ -3,16 +3,29 @@
   <img src="https://avatars.githubusercontent.com/u/34238744?v=4" alt="TinDev" width="120">
 <br>
 <br>
- Dashbord em Power BI para MKS agencia
+ Dashbord em Power BI com BigQuery
 
 </h1>
 
 <p align="center">
-Origem de dados foi teste de uma vagar com Analista BI,dados entregue e formato excel. Apresente um documento em Excell explicando sucintamente o raciocínio utilizado para transformar a tabela bem como possíveis inconsistências encontradas. Apresente também a tabela obtida na transformação e os códigos desenvolvidos caso utilize Python e/ou R<br>
+O projeto pega dados de duas origem um de API do site themoviedb.org e outra do governo sobre o contratos feitos pelo misteria da fazenda <br>
 <ul>
-<li>Gráfico de série histórica de concentração dos parâmetros</li>
-<li>Indicadores e filtros que julgar adequados.</li>
-<li>Design e usabilidade do relatório (posicionamento de botões, textos, filtros e visuais de modo a facilitar a análise dos dados); </li>
+<li>The movie : dados dos ultimos filme visto sua origem e sua popularidade apos sua estreia mundial</li>
+<li>Do Governo tem de acesso publico</li>
+<li>"id_contrato": "Identificador ?nico sequencial do contrato",
+    "nome_contrato": "Nome do contrato",
+    "objeto_contrato": "Assunto ao qual se refere o contrato",
+    "valor_contrato": "Valor do contrato, em Reais",
+    "inicio_vigencia": "In?cio de vig?ncia do contrato",
+    "termino_vigencia": "T?rmino de vig?ncia do contrato",
+    "fk_empresa_contratada": "Chave estrangeira da empresa contratada",
+    "id_data": "Identificador ?nico da data",
+    "data": "Data no formato DD/MM/AAAA",
+    "id_empresa": "Identificador ?nico da empresa contratada",
+    "nome_empresa": "Nome da empresa contratada"</li>
+    <li>
+    Houve um tratamento dos dados (ELT) via pyton envio para carregamento no BigQuery do google
+    </li>
 </ul>
 </p>
 
@@ -25,29 +38,16 @@ Origem de dados foi teste de uma vagar com Analista BI,dados entregue e formato 
 
 <div align="center">
 
-<img src="img/aplicativoanalistico .gif" alt="animaÃ§Ã£o" align="center" height="425"><br><br>
+<img src="img/aplicativoanalistico.gif" alt="animaÃ§Ã£o" align="center" height="425"><br><br>
 
-  <img src="img/logo.jpg" alt="mobile" align="center" height="120"><br><br>  
+  <img src="img/tela1.png" alt="mobile" align="center" height="425"><br><br>  
 
-  <img src="img/01.png" alt="mobile" align="center" height="425"><br><br>
-
-  <img src="img/02.png" alt="mobile" align="center" height="425"><br><br>
-
-  <img src="img/03.png" alt="mobile" align="center" height="425"><br><br>
-
-  <img src="img/04.png" alt="mobile" align="center" height="425"><br><br>
+  <img src="img/tela2.png" alt="mobile" align="center" height="425"><br><br>
+  
 
   <img src="img/aplicativoanalistico2 .gif" alt="animaÃ§Ã£o" align="center" height="425"><br><br>
 
-  <img src="img/05.png" alt="mobile" align="center" height="425"><br><br>
-
-  <img src="img/06.png" alt="mobile" align="center" height="425"><br><br>
-
-  <img src="img/07.png" alt="mobile" align="center" height="425"><br><br>
-
-  <img src="img/08.png" alt="mobile" align="center" height="425"><br><br>
-
-  <img src="img/09.png" alt="mobile" align="center" height="425"><br><br>
+  
 
 </div>
 
@@ -55,19 +55,21 @@ Origem de dados foi teste de uma vagar com Analista BI,dados entregue e formato 
 
 ## Tecnologia usada
 
-Power BI - Excell
+Power BI - Micro soft
+BigQuery - Google
 
 
 -  **DAX** Dax 
--  **POWER BI ** ” Criação de Dash bord em Power BI
--  **JQuery** ” para cadastro de imagens
-- **R**  para Excell
+ - **PYTON** tratamento do dados 
+-  **POWER BI ** ” Cria??o de Dash bord em Power BI
+-  **JQuery** para cadastro de imagens
+- **R**  para csv
 
 
 
 ## Modelos
 
-1. Modelo realizado dados nãoo reais
+1. Modelo realizado dados  reais
 2. Todos os direito autoras pela david orion<br />
 3. Modelo apenas ilustratorio<br />
 
